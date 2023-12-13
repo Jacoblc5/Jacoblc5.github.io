@@ -1,0 +1,194 @@
+body,
+h1,
+h2,
+h3,
+p,
+ul,
+li {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Trebuchet MS", "Lucida Grande", Verdana, Lucida, Geneva, Helvetica, Arial, sans-serif;
+  background-color: #f5f5f5;
+  color: #333333;
+}
+
+img {
+  max-width: 100%; /* Limits the image width to the width of its container */
+  height: auto;    /* Automatically adjusts the height to maintain aspect ratio */
+}
+header {
+  width: 100%;
+  text-align: center;
+  margin: 0 auto;
+  padding: 20px 0; 
+  background-color: #bdbbbb; /* Example background color */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Example box shadow */
+  border-bottom: 1px solid #ccc; /* Example border */
+
+}
+
+
+#navbar {
+  background-color: #333333;
+  color: #ffffff;
+  text-align: center;
+  padding: 20px 0;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 1000;
+}
+
+#navbar ul {
+  list-style: none;
+}
+
+#navbar li {
+  display: inline;
+  margin-right: 10px;
+}
+
+#navbar a {
+  text-decoration: none;
+  color: #ffffff;
+  padding: 10px 15px;
+  border-radius: 5px;
+  background-color: #555555;
+}
+
+#navbar a:hover {
+  background-color: #777777;
+}
+
+#content {
+  background-color: #ffffff;
+  padding: 40px;
+  margin: 80px auto;
+  max-width: 800px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+footer {
+  background-color: #333333;
+  color: #ffffff;
+  text-align: center;
+  padding: 20px;
+  border-radius: 0 0 10px 10px;
+}
+
+footer a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+.intro-box,
+.about-section,
+.education-box,
+.experience-box,
+.hobbies-section,
+.project-gallery,
+.project-item {
+  background-color: #ffffff;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.intro-box h1,
+.about-section h2,
+.education-box h2,
+.experience-box h2,
+.hobbies-section h2 {
+  color: #555555;
+  font-size: 1.5em;
+  margin-bottom: 10px;
+}
+
+.intro-box p,
+.about-section p,
+.education-box p,
+.experience-box p,
+.hobbies-section p {
+  color: #555555;
+  font-size: 1.2em;
+  line-height: 1.6;
+}
+
+.project-gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 20px;
+}
+
+
+
+.project-item img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+  border-radius: 15px;
+}
+
+.project-item p {
+  text-align: center;
+  padding: 10px;
+  background-color: #777777;
+  border-radius: 15px;
+  color: #ffffff;
+}
+
+#projects-title {
+  font-size: 2em; /* Adjust font size as needed */
+  color: #333333d0; /* Adjust color as needed */
+  margin: 0; /* Removes default margin */
+  padding: 10px 0; /* Adjust padding as needed */
+  /* Additional styling */
+}
+/* allows u to click on item */
+.project-gallery .lightbox {
+  display: none;
+  position: fixed;
+  z-index: 1000;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.8);
+}
+
+.project-gallery .lightbox:target {
+  display: block;
+  outline: none;
+}
+
+.project-gallery .lightbox img {
+  max-width: 90%;
+  max-height: 80%;
+  margin-top: 2%;
+}
+
+.project-gallery .lightbox:target img {
+  border: 3px solid white;
+}
+
+.project-gallery .lightbox a {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  color: #fff;
+  font-size: 30px;
+  text-decoration: none;
+}
+
+
