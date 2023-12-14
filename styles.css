@@ -16,17 +16,17 @@ body {
 }
 
 img {
-  max-width: 100%; /* Limits the image width to the width of its container */
-  height: auto;    /* Automatically adjusts the height to maintain aspect ratio */
+  max-width: 100%; 
+  height: auto;    
 }
 header {
   width: 100%;
   text-align: center;
   margin: 0 auto;
   padding: 20px 0; 
-  background-color: #bdbbbb; /* Example background color */
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Example box shadow */
-  border-bottom: 1px solid #ccc; /* Example border */
+  background-color: #bdbbbb; 
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+  border-bottom: 1px solid #ccc; 
 
 }
 
@@ -155,11 +155,11 @@ footer a:hover {
 }
 
 #projects-title {
-  font-size: 2em; /* Adjust font size as needed */
-  color: #333333d0; /* Adjust color as needed */
-  margin: 0; /* Removes default margin */
-  padding: 10px 0; /* Adjust padding as needed */
-  /* Additional styling */
+  font-size: 2em; 
+  color: #333333d0; 
+  margin: 0; 
+  padding: 10px 0; 
+  
   padding-top: 50px;
 }
 /* allows u to click on item */
@@ -222,23 +222,23 @@ footer a:hover {
 
 /* form */ 
 .container {
-  background-color: #ffffff; /* Matches your #content style */
+  background-color: #ffffff; 
   padding: 40px;
-  margin: 20px auto; /* Adjust as needed */
-  max-width: 800px; /* Matches your #content style */
+  margin: 20px auto; 
+  max-width: 800px; 
   border-radius: 10px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  text-align: center; /* Center aligns the form elements */
+  text-align: center; 
 }
 
 .form-group {
-  margin-bottom: 15px; /* Space between each form input */
+  margin-bottom: 15px; 
 }
 
 .form-group label {
-  display: block; /* Makes label take a full row */
-  margin-bottom: 5px; /* Space between label and input */
-  color: #555555; /* Style to match your other text */
+  display: block; 
+  margin-bottom: 5px; 
+  color: #555555; 
 }
 
 .form-group input[type="text"],
@@ -246,36 +246,35 @@ footer a:hover {
 .form-group input[type="number"],
 .form-group select,
 .form-group textarea {
-  width: 100%; /* Full width inputs */
-  padding: 10px; /* Padding for input */
-  border-radius: 5px; /* Rounded borders */
-  border: 1px solid #ccc; /* Border style */
-  margin-bottom: 10px; /* Space after each input */
+  width: 100%; 
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc; 
+  margin-bottom: 10px; 
 }
 
 .form-group input[type="radio"],
 .form-group input[type="checkbox"] {
-  margin-right: 5px; /* Space after radio and checkbox */
+  margin-right: 5px; 
 }
 
 .form-group button[type="submit"] {
-  background-color: #333333; /* Matches your button style */
+  background-color: #333333; 
   color: #ffffff;
   padding: 10px 20px;
   border: none;
   border-radius: 5px;
   cursor: pointer;
-  text-transform: uppercase; /* Optional: makes text uppercase */
+  text-transform: uppercase; 
 }
 
 .form-group button[type="submit"]:hover {
-  background-color: #555555; /* Darker on hover */
+  background-color: #555555; 
 }
 
-/* Responsive adjustments */
 @media (max-width: 768px) {
   .container {
-      width: 90%; /* More width on smaller screens */
+      width: 90%; 
       padding: 20px;
   }
 }
