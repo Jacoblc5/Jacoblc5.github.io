@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Advising Appointment Registration</title>
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+  </head>
+
+  <body class="main-page">
+    <div id="navbar">
+      <ul>
+        <li><a href="index.html">About Me</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="form.html">Contact Me</a></li>
+      </ul>
+    </div>
+
+<body>
+    <div class="container">
+        <h2>Contact Me For Any Inquiries</h2>
+        <form id="advisingForm" action="thankyou.html" method="get">
+            <div class="form-group">
+                <label for="firstName">First Name:</label>
+                <input type="text" id="firstName" name="firstName" required>
+            </div>
+            <div class="form-group">
+                <label for="lastName">Last Name:</label>
+                <input type="text" id="lastName" name="lastName" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            
+            <div class="form-group">
+                <label for="comments">Message:</label>
+                <textarea id="comments" name="comments" rows="4" cols="50"></textarea>
+            </div>
+            <div class="form-group">
+                <button type="submit">Submit</button>
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>
